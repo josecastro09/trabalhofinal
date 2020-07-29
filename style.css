@@ -1,0 +1,93 @@
+header {
+    background-color: azure;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+#menu {
+    background-color:rgb(175, 245, 175);
+    font-size: 20px;
+   
+}
+
+#menu a {
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+ 
+}
+
+#menu a:hover {
+    background-color: black;
+}
+
+
+
+main {
+    height: 400px;
+    background-color:white;
+   
+}
+#principal {
+    /* ATIVA O MODO DE COLUNAS E LINHAS */
+    display: grid;
+
+    /* DEFINE A QUANTIDADE DE COLUNAS E O TAMANHO DELAS */
+    grid-template-columns: repeat(3, 300px);
+
+    /* CENTRALIZA O CONTEÚDO */
+    justify-content: center;
+
+    /* ESPAÇAMENTO ENTRE AS COLUNAS */
+    gap: 40px;
+
+    /* MARGEM */
+    margin: 40px;
+}
+
+#pri {
+    justify-content: center;
+
+}
+
+#lista {
+   text-align: center;
+   font-size: x-large;
+    /* MARGEM */
+    margin: 40px;
+}
+
+p {
+    font-size: large;
+    margin: 10px;
+}
+
+ul {
+    font-size: large;
+    margin: 10px;
+
+}
+
+#tela {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+}
+
+img {
+    /* LARGURA */
+    width: 200px;
+
+    /* ALTURA */
+    height: 300px;
+
+    /* MANTER A PROPORÇÃO DAS IMAGENS */
+    object-fit: cover;
+}
+footer {
+    height: 150px;
+    background-color: azure;
+    font-size: medium;
+    text-align: center;
+}
